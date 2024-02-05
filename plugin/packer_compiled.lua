@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lush.nvim",
     url = "https://github.com/rktjmp/lush.nvim"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",

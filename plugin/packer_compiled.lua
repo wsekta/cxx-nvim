@@ -74,6 +74,16 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["darcula-solid.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\darcula-solid.nvim",
+    url = "https://github.com/briones-gabriel/darcula-solid.nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",

@@ -12,4 +12,7 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
+
+  use { "briones-gabriel/darcula-solid.nvim", 
+  requires = "rktjmp/lush.nvim" }
 end)

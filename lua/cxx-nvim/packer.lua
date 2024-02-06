@@ -13,8 +13,24 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   })
 
-  use({ "briones-gabriel/darcula-solid.nvim", 
-  requires = "rktjmp/lush.nvim" })
+  use({ "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" })
 
-  use({'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'}})
+  use {
+	  'nvim-treesitter/nvim-treesitter',
+	  run = function()
+		  local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+		  ts_update()
+  end,}
+
+  use("nvim-treesitter/playground")
+
+  use({
+	  "ThePrimeagen/harpoon",
+	  branch = "harpoon2",
+	  requires = { {"nvim-lua/plenary.nvim"} }
+  })
+
+  use("mbbill/undotree")
+
+  use('tpope/vim-fugitive')
 end)

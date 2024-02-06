@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\darcula-solid.nvim",
     url = "https://github.com/briones-gabriel/darcula-solid.nvim"
   },
+  harpoon = {
+    loaded = true,
+    path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["lush.nvim"] = {
     loaded = true,
     path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lush.nvim",
@@ -94,6 +99,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  playground = {
+    loaded = true,
+    path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\playground",
+    url = "https://github.com/nvim-treesitter/playground"
+  },
   ["plenary.nvim"] = {
     loaded = true,
     path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
@@ -103,6 +113,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  undotree = {
+    loaded = true,
+    path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
+    url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "C:\\Users\\wojciech.sekta\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 
